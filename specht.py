@@ -17,7 +17,6 @@ This can be overridden using the optional gap argument:
 
     sage: H=Specht(4, gap='/some/other/place')
 
-
 AUTHOR:
 - Andrew Mathas (2015): initial version
 
