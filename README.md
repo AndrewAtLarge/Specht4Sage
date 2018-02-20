@@ -1,0 +1,1 @@
+Simple wrapper to allow the gap 3.4 package SPECHT to be used by Sage
