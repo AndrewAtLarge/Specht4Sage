@@ -153,11 +153,11 @@ class Specht(object):
             2^2  |   .     v
             2,1^2|   v   v^2
             1^4  | v^2     .
-        
+
         """
         return self._gap.CrystalizedDecompositionMatrix(self._hecke,n)
 
-    
+
     def __to_sage_polynomial(self, p):
         r"""
         Convert the gap (Laurent) polynomial `p` to a sage polynomial.
@@ -188,7 +188,7 @@ class Specht(object):
         """
         if self._p>0:
             raise NotImplementedError('graded decomposition numbers are only known in characteristic zero')
-        
+
         Pq=self._hecke.Pq(nu)
         try:
             dmunu=Pq.coeffs[Pq.elts.Position(mu)]
