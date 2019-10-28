@@ -63,7 +63,7 @@ class Specht(object):
         3,2,1  | 1 1 . 1 1 1
         3,1^3  | . . . 1 . 1
         2^3    | 1 . . . . 1
-        2^2,1^2| . . . . . . 1
+       2^2,1^2| . . . . . . 1
         2,1^4  | . . . . 1 1 .
         1^6    | . . . . 1 . .
     """
@@ -118,7 +118,7 @@ class Specht(object):
 
     def decomposition_number(self, mu,nu):
         r"""
-        Return the decomposition multiplicity, an integer, of the simple 
+        Return the decomposition multiplicity, an integer, of the simple
         module D(nu)` in the Specht module `S(mu)`.
 
         EXAMPLES::
@@ -173,7 +173,7 @@ class Specht(object):
 
     def graded_decomposition_number(self, mu,nu):
         r"""
-        Return the decomposition multiplicity, a Laurent polynomial in `v`, of the simple 
+        Return the decomposition multiplicity, a Laurent polynomial in `v`, of the simple
         module D(mu)` in the Specht module `S(nu)`.
 
         EXAMPLES::
