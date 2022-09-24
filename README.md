@@ -48,7 +48,25 @@ Examples
         2^2,1^2| . . . . . . 1
         2,1^4  | . . . . 1 1 .
         1^6    | . . . . 1 . .
+        sage: H.decomposition_number([5,1],[6])
+        1
+        sage: H.graded_decomposition_number([5,1],[6])
+        v
 ```
 
-AUTHOR:
-- Andrew Mathas (2015): initial version
+Author
+------
+Andrew Mathas (2015): initial version
+
+GNU General Public License, Version 3, 29 June 2007
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License [GPL](http://www.gnu.org/licenses/gpl.html
+) as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
