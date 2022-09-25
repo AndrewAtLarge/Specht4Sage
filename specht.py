@@ -12,7 +12,7 @@ version of the Specht package.
     sage: H.graded_decomposition_number([2,2,2],[6])
     v^2
 
-By default, the wrapped assumes that the gap3 executable is '/usr/local/bin/gap'.
+By default, the wrapper assumes that the gap3 executable is '/usr/local/bin/gap'.
 This can be overridden using the optional gap argument:
 
     sage: H=Specht(4, gap='/some/other/place')
@@ -63,7 +63,7 @@ class Specht(object):
         3,2,1  | 1 1 . 1 1 1
         3,1^3  | . . . 1 . 1
         2^3    | 1 . . . . 1
-       2^2,1^2| . . . . . . 1
+        2^2,1^2| . . . . . . 1
         2,1^4  | . . . . 1 1 .
         1^6    | . . . . 1 . .
     """
